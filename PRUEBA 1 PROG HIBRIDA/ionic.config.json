@@ -1,0 +1,7 @@
+{
+  "name": "evaluacion-1-dilan-gatica",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

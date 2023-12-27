@@ -1,0 +1,11 @@
+<form>
+  <ion-input>
+    label="perimetro"
+    [(ngModel)]="txtPerimetro"
+    (ion-input)="calcularPerimetro()"
+    type="number"
+    fill="outline"
+    name="perimetro"
+  </ion-input>
+</form>
+<ion-text *ngIf="perimetroValido()">El perimetro del círculo es: {{perimetro.toFixed(2)}}</ion-text>
